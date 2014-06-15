@@ -1,23 +1,25 @@
-print "I will now count my chickens:"
+print "I will now count my chickens:" #This line witll print the sentence
 
-print "Hens", 25 + 30 / 6
-print "Roosters", 100 - 25 *3 % 4
+print "Hens", 25 + 30 / 6 #Counting the number of chickens with an expression
+print "Roosters", 100 - 25 *3 % 4 #Counting the number if roosters with an expression
 
-print "Now I will count the eggs:"
+#Python computes mathematical expression and prints the result
 
-print 3 + 2 + 1 -5 + 4 %2 -1 / 4 + 6
+print "Now I will count the eggs:" #Printing another string
 
-print "Is it true that 3 + 2 < 5 - 7"
+print 3 + 2 + 1 -5 + 4 %2 -1 / 4 + 6 #Python in this form only proides results in whole numbers
 
-print 3 + 2 < 5 - 7 
+print "Is it true that 3 + 2 < 5 - 7" #Printing a question for python followed by the question itself.
 
-print "What is 3 + 2?", 3 + 2
-print "What is 5 - 7?", 5 - 7
+print 3 + 2 < 5 - 7  #When you present a conditional expression, python evaluates and gives the answer in terms of True or False
 
-print "Oh, that's why it's False."
+print "What is 3 + 2?", 3 + 2 #Printing a question and then evaluating the expression
+print "What is 5 - 7?", 5 - 7 #Printing a question and then evaluating the expression
 
-print "How about some more."
+print "Oh, that's why it's False." #Printing, more printing
 
-print "Is it greater?" , 5 > -2
-print "Is it greater or equal?", 5>= -2
-print "Is it less or equal?", 5 <= -2
+print "How about some more." #Setting up for more print and computing simple expression
+
+print "Is it greater?" , 5 > -2 #Print and evaluate expression for True or False
+print "Is it greater or equal?", 5>= -2 #Printing a True/False question and getting the answer by letting python compute it
+print "Is it less or equal?", 5 <= -2 #Printing a True/False question also , makes it print in the same line
